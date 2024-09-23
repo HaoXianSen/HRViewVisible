@@ -4,7 +4,8 @@ Make a UIView or it's subviews hide or unhide and automatically hide it's associ
 （UIView 或者它的子类，自动隐藏并且可控的收起他相关联的约束）
 
 ## Situation（场景）：
-<img width="574" alt="image" src="https://github.com/user-attachments/assets/75eeadba-65e3-4909-94d6-8d32cf282b95">
+<img width="517" alt="image" src="https://github.com/user-attachments/assets/0de187f5-68b8-4ae2-b99d-b083d46b3545">
+
 
 We have a cell like this, and tags line is mutable， maybe just have tag1 and tag3， tag2 and tag4 is hide， maybe others. we should hide tag2 and right constraint, hide test4 and left constraint。so you can use this repository。
 
