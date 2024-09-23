@@ -1,4 +1,9 @@
 # HRViewVisible
+[![CI Status](https://img.shields.io/travis/1335430614@qq.com/HRViewVisible.svg?style=flat)](https://travis-ci.org/1335430614@qq.com/HRViewVisible)
+[![Version](https://img.shields.io/cocoapods/v/HRViewVisible.svg?style=flat)](https://cocoapods.org/pods/HRViewVisible)
+[![License](https://img.shields.io/cocoapods/l/HRViewVisible.svg?style=flat)](https://cocoapods.org/pods/HRViewVisible)
+[![Platform](https://img.shields.io/cocoapods/p/HRViewVisible.svg?style=flat)](https://cocoapods.org/pods/HRViewVisible)
+
 ## Overview（概述）：
 Make a UIView or it's subviews hide or unhide and automatically hide it's associate constraints 
 （UIView 或者它的子类，自动隐藏并且可控的收起他相关联的约束）
@@ -19,5 +24,13 @@ For example, if we have a page like the previous one where view2 is dynamic, whi
 ## Usage （使用）
 
 ## Screenshot (截图)
+
+## Author (联系我)
+
+harry_c2016@163.com
+
+## License (许可)
+
+HRViewVisible is available under the MIT license. See the LICENSE file for more info.
 
 

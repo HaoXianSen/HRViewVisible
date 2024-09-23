@@ -1,0 +1,22 @@
+{
+  "name": "HRViewVisible",
+  "version": "0.1.0",
+  "summary": "A short description of HRViewVisible.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1335430614@qq.com/HRViewVisible",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1335430614@qq.com": "haoyh02@rd.netease.com"
+  },
+  "source": {
+    "git": "https://github.com/1335430614@qq.com/HRViewVisible.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HRViewVisible/Classes/**/*"
+}

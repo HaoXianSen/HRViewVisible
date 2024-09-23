@@ -1,0 +1,6 @@
+framework module HRViewVisible {
+  umbrella header "HRViewVisible-umbrella.h"
+
+  export *
+  module * { export * }
+}
