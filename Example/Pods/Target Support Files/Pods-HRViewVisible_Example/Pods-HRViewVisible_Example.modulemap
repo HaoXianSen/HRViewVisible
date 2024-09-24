@@ -1,4 +1,4 @@
-framework module Pods_HRViewVisible_Example {
+module Pods_HRViewVisible_Example {
   umbrella header "Pods-HRViewVisible_Example-umbrella.h"
 
   export *

@@ -1,13 +1,12 @@
-use_frameworks!
-
-platform :ios, '10.0'
+platform :ios, '12.0'
+use_modular_headers!
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'HRViewVisible_Example' do
   pod 'HRViewVisible', :path => '../'
+  pod 'SnapKit', '~> 5.7.1'
 
   target 'HRViewVisible_Tests' do
     inherit! :search_paths
-
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
   end
 end

@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		039173B4E4D1C5222F3FADB8 /* libPods-HRViewVisible_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FB208884F608238C701115 /* libPods-HRViewVisible_Example.a */; };
+		5345B2EA742E7D6312790521 /* libPods-HRViewVisible_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 189FBC91089E563AEAE2C4FD /* libPods-HRViewVisible_Tests.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		D08199CAC165BE1B78D1E56F /* Pods_HRViewVisible_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 355DE49C5652E9FB0D26BE67 /* Pods_HRViewVisible_Tests.framework */; };
-		DC47ED2F0087F282B37A7872 /* Pods_HRViewVisible_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7716C5E0E8A223F1389614C2 /* Pods_HRViewVisible_Example.framework */; };
+		70E255172CA2BF2C00A02F1E /* SnapKitTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E255162CA2BF2C00A02F1E /* SnapKitTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,8 @@
 /* Begin PBXFileReference section */
 		00A24F6667F90232F6AF44E2 /* Pods-HRViewVisible_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRViewVisible_Example.release.xcconfig"; path = "Target Support Files/Pods-HRViewVisible_Example/Pods-HRViewVisible_Example.release.xcconfig"; sourceTree = "<group>"; };
 		05DD6259A7D18299A8762AE2 /* Pods-HRViewVisible_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRViewVisible_Example.debug.xcconfig"; path = "Target Support Files/Pods-HRViewVisible_Example/Pods-HRViewVisible_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		355DE49C5652E9FB0D26BE67 /* Pods_HRViewVisible_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HRViewVisible_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FB208884F608238C701115 /* libPods-HRViewVisible_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HRViewVisible_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189FBC91089E563AEAE2C4FD /* libPods-HRViewVisible_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HRViewVisible_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		427632B702CC95A648D7818B /* HRViewVisible.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HRViewVisible.podspec; path = ../HRViewVisible.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		57B9BFD7650ED601CB11DCF7 /* Pods-HRViewVisible_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRViewVisible_Tests.release.xcconfig"; path = "Target Support Files/Pods-HRViewVisible_Tests/Pods-HRViewVisible_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HRViewVisible_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRViewVisible_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +45,7 @@
 		607FACE51AFB9204008FA782 /* HRViewVisible_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRViewVisible_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7716C5E0E8A223F1389614C2 /* Pods_HRViewVisible_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HRViewVisible_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E255162CA2BF2C00A02F1E /* SnapKitTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKitTestViewController.swift; sourceTree = "<group>"; };
 		874FFABA821126270C3B4F42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9CB5B9AC6D6010773FA89370 /* Pods-HRViewVisible_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRViewVisible_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HRViewVisible_Tests/Pods-HRViewVisible_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A67B5B51F9C8A6CD4BB031E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -54,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC47ED2F0087F282B37A7872 /* Pods_HRViewVisible_Example.framework in Frameworks */,
+				039173B4E4D1C5222F3FADB8 /* libPods-HRViewVisible_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08199CAC165BE1B78D1E56F /* Pods_HRViewVisible_Tests.framework in Frameworks */,
+				5345B2EA742E7D6312790521 /* libPods-HRViewVisible_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +108,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				70E255162CA2BF2C00A02F1E /* SnapKitTestViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -153,8 +156,8 @@
 		875ABA422FFEB684BA741D63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7716C5E0E8A223F1389614C2 /* Pods_HRViewVisible_Example.framework */,
-				355DE49C5652E9FB0D26BE67 /* Pods_HRViewVisible_Tests.framework */,
+				11FB208884F608238C701115 /* libPods-HRViewVisible_Example.a */,
+				189FBC91089E563AEAE2C4FD /* libPods-HRViewVisible_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,7 +173,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				340AE418AC6C71CF39D85421 /* [CP] Embed Pods Frameworks */,
+				2CD23D3EAC4B92674602B105 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,7 +192,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				A4ADFF80AB3AF92A5D87EB19 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2WDZJRD8PQ;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2WDZJRD8PQ;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -263,22 +267,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		340AE418AC6C71CF39D85421 /* [CP] Embed Pods Frameworks */ = {
+		2CD23D3EAC4B92674602B105 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HRViewVisible_Example/Pods-HRViewVisible_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HRViewVisible/HRViewVisible.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-HRViewVisible_Example/Pods-HRViewVisible_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit_Privacy.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HRViewVisible.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SnapKit_Privacy.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HRViewVisible_Example/Pods-HRViewVisible_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HRViewVisible_Example/Pods-HRViewVisible_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5B033C5F9A2876D21BE72E2C /* [CP] Check Pods Manifest.lock */ = {
@@ -325,24 +329,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A4ADFF80AB3AF92A5D87EB19 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HRViewVisible_Tests/Pods-HRViewVisible_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HRViewVisible_Tests/Pods-HRViewVisible_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -350,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70E255172CA2BF2C00A02F1E /* SnapKitTestViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -438,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -484,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -497,7 +484,9 @@
 			baseConfigurationReference = 05DD6259A7D18299A8762AE2 /* Pods-HRViewVisible_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2WDZJRD8PQ;
 				INFOPLIST_FILE = HRViewVisible/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -512,7 +501,9 @@
 			baseConfigurationReference = 00A24F6667F90232F6AF44E2 /* Pods-HRViewVisible_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2WDZJRD8PQ;
 				INFOPLIST_FILE = HRViewVisible/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -526,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9CB5B9AC6D6010773FA89370 /* Pods-HRViewVisible_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 2WDZJRD8PQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -535,6 +527,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,11 +541,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57B9BFD7650ED601CB11DCF7 /* Pods-HRViewVisible_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 2WDZJRD8PQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

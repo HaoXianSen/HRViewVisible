@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tmn-FB-PXa">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="zNY-nY-11B">
+            <objects>
+                <navigationController id="tmn-FB-PXa" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aSz-2p-aWX">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="VwI-P3-1SR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="89O-qv-oxb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1516" y="-134"/>
+        </scene>
+        <!--System Constraints-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="HRViewVisible_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="System Constraints" id="vXZ-lx-hvc" customClass="ViewController" customModule="HRViewVisible_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -20,11 +35,74 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iyr-Fz-hFK">
+                                <rect key="frame" x="16" y="64" width="130" height="130"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="DMX-AY-Qu0"/>
+                                    <constraint firstAttribute="height" constant="130" id="YJS-id-shz"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="This is a title baba" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ha9-3Z-xMf">
+                                <rect key="frame" x="160" y="64" width="199" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jyk-OZ-aVz">
+                                <rect key="frame" x="160" y="95" width="199" height="99"/>
+                                <string key="text">We have a cell like this, and tags line is mutable， maybe just have tag1 and tag3， tag2 and tag4 is hide， maybe others. we should hide tag2 and right constraint, hide test4 and left constraint。so you can use this repository</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NV0-VT-KQ8">
+                                <rect key="frame" x="16" y="212" width="343" height="44"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Uhj-s7-cnQ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Snapkit constraints">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="snapkitConstraint:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4GM-Gr-5rD"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Jyk-OZ-aVz" firstAttribute="trailing" secondItem="ha9-3Z-xMf" secondAttribute="trailing" id="3mX-cu-Yu0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NV0-VT-KQ8" secondAttribute="trailing" id="5gk-za-cUc"/>
+                            <constraint firstItem="NV0-VT-KQ8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="9La-Ig-08r"/>
+                            <constraint firstItem="ha9-3Z-xMf" firstAttribute="leading" secondItem="iyr-Fz-hFK" secondAttribute="trailing" constant="14" id="COI-oy-RJ2"/>
+                            <constraint firstItem="iyr-Fz-hFK" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="N26-b9-0c3"/>
+                            <constraint firstItem="Jyk-OZ-aVz" firstAttribute="leading" secondItem="ha9-3Z-xMf" secondAttribute="leading" id="bYM-c1-1vd"/>
+                            <constraint firstItem="Jyk-OZ-aVz" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="iyr-Fz-hFK" secondAttribute="bottom" id="cJW-RI-Edo"/>
+                            <constraint firstItem="ha9-3Z-xMf" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="d6f-I6-nUO"/>
+                            <constraint firstItem="Jyk-OZ-aVz" firstAttribute="top" secondItem="ha9-3Z-xMf" secondAttribute="bottom" constant="10" id="gI7-iB-DvQ"/>
+                            <constraint firstItem="ha9-3Z-xMf" firstAttribute="top" secondItem="iyr-Fz-hFK" secondAttribute="top" id="gZU-XT-y36"/>
+                            <constraint firstItem="NV0-VT-KQ8" firstAttribute="top" secondItem="iyr-Fz-hFK" secondAttribute="bottom" constant="18" id="yCy-hx-NRB"/>
+                            <constraint firstItem="iyr-Fz-hFK" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="z51-in-mSa"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="5YI-gL-YK3"/>
+                    <connections>
+                        <outlet property="blueView" destination="iyr-Fz-hFK" id="Apr-uG-kGq"/>
+                        <outlet property="descriptionLabel" destination="Jyk-OZ-aVz" id="4Ji-dG-CCM"/>
+                        <outlet property="titleView" destination="ha9-3Z-xMf" id="A4w-7O-9mP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-716" y="-134.48275862068968"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

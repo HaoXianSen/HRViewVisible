@@ -7,18 +7,44 @@
 //
 
 import UIKit
+import HRViewVisible
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var blueView: UIView!
+    @IBOutlet weak var titleView: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
+            self.blueView.setVisible(.gone(direction: .right))
+            UIView.animate(withDuration: 0.2) {
+                self.view.updateFocusIfNeeded()
+            }
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2) {
+                self.titleView.setVisible(.gone(direction: .bottom))
+                self.blueView.setVisible(.visible(direction: .right))
+                UIView.animate(withDuration: 0.2) {
+                    self.view.updateFocusIfNeeded()
+                }
+                
+                DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2) {
+                    self.titleView.setVisible(.visible(direction: .bottom))
+                    UIView.animate(withDuration: 0.2) {
+                        self.view.updateFocusIfNeeded()
+                    }
+                }
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func snapkitConstraint(_ sender: Any) {
+        self.navigationController?.pushViewController(SnapKitTestViewController(), animated: true)
+    }
 }
 

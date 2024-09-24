@@ -1,27 +1,23 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - HRViewVisible (0.1.0)
+  - HRViewVisible (1.0.0)
+  - SnapKit (5.7.1)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase (~> 2.1.4)
   - HRViewVisible (from `../`)
+  - SnapKit (~> 5.7.1)
 
 SPEC REPOS:
-  trunk:
-    - FBSnapshotTestCase
+  https://github.com/CocoaPods/Specs.git:
+    - SnapKit
 
 EXTERNAL SOURCES:
   HRViewVisible:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  HRViewVisible: 2cdb7013bf0e9dab0f95dfae38bea193225e5a7a
+  HRViewVisible: c7d55d8cb8ca654ed0f9a1358892608bbf86c436
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
 
-PODFILE CHECKSUM: aef8cab648d956604713fed0a34f77d2455d4e12
+PODFILE CHECKSUM: 9679525cbbaf0ab9ee2ea8f029ea8145ef47d5c4
 
 COCOAPODS: 1.14.3
