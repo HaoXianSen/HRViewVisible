@@ -22,8 +22,9 @@ For example, if we have a page like the previous one where view2 is dynamic, whi
 （在比如，我们有如上一个页面，view2 是动态的，也就是说view2 可能会隐藏，那么为了保证页面的间距，我们需要隐藏view2 的同时将其高度 & 下边距或者上边距也隐藏掉。）
 
 ## Usage （使用）
-
-* pod 'HRViewVisible', '~> 1.0.0'
+```
+pod 'HRViewVisible', '~> 1.0.0'
+```
 
 ## Screenshot (截图)
 <img width="375" alt="image" src="https://github.com/HaoXianSen/HRViewVisible/blob/main/Snapshot/snapshot1.gif"> <img width="375" alt="image" src="https://github.com/HaoXianSen/HRViewVisible/blob/main/Snapshot/snapshot2.gif">
